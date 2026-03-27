@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: capitalize;
+    height: fit-content;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+    padding-top: 1.5rem;
+    
+   
+   
+}
+
+nav {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    width: 50%;
+   
+
+}
+
+.logo {
+    width: 3.5rem;
+}
+
+.left {
+    background: black;
+    color: white;
+    width: 80%;
+    height: 100vh;
+    padding-left: 3rem;
+    z-index: 0;
+
+   
+}
+
+
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    text-align: start;
+ 
+}
+
+main h1  {
+    margin-bottom: 1.2rem;
+}
+
+main h3 {
+    margin-bottom: 1.5rem;
+    border: 1.5px solid rgb(168, 252, 0);
+    width: fit-content;
+    padding: 0.3rem 0.5rem;
+    font-weight: lighter;
+    background: rgb(206, 179, 144);
+    color: black;
+}
+
+
+main p {
+    width: 70%;
+    margin-bottom: 1.8rem;
+
+}
+   
+
+main button {
+    outline: none;
+    padding: 0.4rem 0.8rem;
+    border: none;
+    border: 1px solid white;
+    background: rgb(61, 59, 59);
+    border-radius: 5px;
+    text-transform: capitalize;
+    color: white;
+    width: 13%;
+    margin-bottom: 4rem;
+}
+
+
+.person {
+    width: 20rem;
+    position: absolute;
+    left: 70%;
+    top: 68.7%;
+    transform: translate(-50%, -50%); 
+    z-index: 1;
+}
+
+div p span {
+    font-size: 1.5rem;
+  
+
+}
+
+.number-icon {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    margin-bottom: .5rem;
+}
+
+.icon {
+    width: 1.5rem;
+    color: rgb(170, 255, 0);
+}
+
+.numbers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  
+}  
+
+nav p:hover {
+    text-decoration: underline;
+    background: rgb(170, 255, 1);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+     margin-bottom: .1rem; 
+    cursor: pointer;
+    
+} 
+
+.entreprise {
+    color: rgb(120, 118, 118);
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    position: absolute;
+    left: 35%;
+    top: 95%;
+}
+
+/* //right part// */
+
+.right {
+    background: rgb(153, 255, 0);
+    width: 35%;
+    color: black;
+    height: 100vh;
+    padding: 2rem;
+    position: relative;
+    z-index: 0;
+}
+
+.right button {
+    position: absolute;
+    top: 0.8rem;
+    right: 2rem;
+    width: 25%;
+    border: none;
+    border-radius: 3px;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+} 
+
+.images img {
+    width: 2rem;
+    border-radius: 50px;
+   
+}
+
+.right p {
+    writing-mode: vertical-lr;
+    position: absolute;
+    top: 19%;
+    left: 86%;
+}
+
